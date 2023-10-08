@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:${Dependency.Coroutines.VERSION}")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:${Dependency.Serialization.Json.VERSION}")
 }
 
