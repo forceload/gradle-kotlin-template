@@ -1,6 +1,6 @@
 object Dependency {
     object Kotlin {
-        const val VERSION = "1.9.0"
+        const val VERSION = "2.0.0"
     }
 
     object Coroutines {
@@ -9,6 +9,10 @@ object Dependency {
 
     object Serialization {
         const val VERSION = Dependency.Kotlin.VERSION
-        object Json { const val VERSION = "1.6.0" }
+        object Json { const val VERSION = "1.7.1" }
+    }
+
+    object Datetime {
+        const val VERSION = "0.6.0"
     }
 }
